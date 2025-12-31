@@ -1,0 +1,53 @@
+ body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 6px;
+            box-shadow: 50px;
+            box-shadow: 0 4px 6px 2px rgba(0, 240, 0, 0.411);
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #0da008;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px 2px rgba(0, 119, 255, 0.411);
+            border: 1px solid #000000;
+        }
+        button:hover {
+            background-color: #00ffbf;
+            color: #0d0835;
+            border-radius: 4px;
+        }
+        .message {
+            color: rgb(38, 0, 255);
+            margin-top: 10px;
+        }
+        .person-info {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            margin-top: 10px;
+        }
+        ::placeholder {
+            color: #000;
+        }
